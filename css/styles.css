@@ -1,0 +1,149 @@
+#title{
+background-color: rgb(125, 225, 255);
+  
+ color:black;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* background-image: url("images/bg-dog1.jpg");    */
+}
+ h2, h3{
+    font-weight:bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+h2{
+   
+    font-size: 2.5rem;
+    line-height: 1.5;
+ 
+}
+h3{
+   
+
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.navbar{
+    padding: 0rem 0rem 1.25rem;
+
+}
+.nav-item{
+    padding: 3.18px;
+
+}
+.nav-link{
+    font-size: 1.3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.downloadbtn{
+
+    padding-top: 0.8rem;
+    margin-top: 2rem;
+    margin-inline: 58px;
+}
+.titleimg{
+    padding-top: 0.5rem;
+    width: 50%;
+    transform: rotate(25deg);
+    position: relative;
+    left: 21%;
+}
+@media(max-width:1028px){
+    .titleimg{
+        position:static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
+.container-fluid{
+    padding: 0%;
+}
+.row{
+    padding-top: 3rem;
+}
+#feature{
+    padding: 7% 15%;
+    
+    position: relative;
+    z-index: 1;
+}
+.feature-box{
+    text-align: center;
+    padding: 7%;
+  
+}
+
+p{
+    color: grey;
+}
+.icon{
+    margin-bottom: 1rem;
+    color: rgba(230, 38, 41, 0.377);
+}
+.icon:hover{
+    color: rgb(249, 4, 4);
+    
+}
+#testimonials{
+   
+    text-align:center;
+    background-color:  rgb(125, 225, 255);
+
+}
+
+
+.testi-img{
+    width: 15;
+    border-radius: 100%;
+    margin: 20px;
+
+}
+#press{
+    background-color: rgb(125, 225, 255);
+    text-align: center;
+    padding-bottom:3%;
+}
+.press-logo{
+    margin: 20px 20xp 50px;
+    width: 18%;
+
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-clm{
+    padding: 3% 2%;
+}
+#cta{
+    
+    background-color:  rgb(125, 225, 255);
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+
+}
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
